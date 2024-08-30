@@ -1,17 +1,21 @@
 /* Reset básico */
-body {
-  padding: 48px 80px;
-  background-color: #F5F4F0;
-  font-family: "Open Sans", sans-serif;
+:root {
+  font-family: "Alice", serif;
 }
 
-header h1 {
-  text-align: left;
+body {
+  background-color: #F5F4F0;
+  background-size: cover;
+}
+
+#page {
+  padding: 48px 80px;
+  background-color: #F5F4F0;
+  box-sizing: border-box;
 }
 
 header img {
-  display: block;
-  margin: 0 auto;
+  padding: ;
 }
 
 .divider {
@@ -22,7 +26,7 @@ header img {
 }
 
 main {
-  padding: 2em;
+  padding: 40px auto;
 }
 
 h1 + h2 {
@@ -30,16 +34,16 @@ h1 + h2 {
 }
 
 h1.título {
-  padding-left: 30px;
+  margin-bottom: 40px;
 }
 
 p.introdução1 {
   color: #E1624F;
-  padding-left: 30px;
+  margin-bottom: 4px;
 }
 
 p.subtitulo {
-  font-style: italic;  margin: 0;
+  font-style: italic;  margin: 24;
   padding: 0;
   height: 37;
   text-align: center;
@@ -47,6 +51,35 @@ p.subtitulo {
 
 p.introdução2 {
   color: #E1624F;
+  margin: 64px 0px 0px 2px;
+}
+
+#destinos h2 {
+  margin-left: 0px 0px 0px 4px;
+}
+
+#haedong img {
+ margin: 64px 0px 20px 0px;
+}
+
+#haedong h2 {
+ margin: 0px 0px 4px 4px;
+}
+
+#beomeo img {
+ margin: 38px 0px 20px 0px;
+}
+
+#beomeo h2 {
+  margin: 0px 0px 0px 4px;
+}
+
+#yongdusan img {
+  margin: 38px 0px 20px 0px;
+}
+
+#yongdusan h2 {
+  margin: 0px 0px 0px 4px;
 }
 
 p.conclussão {
